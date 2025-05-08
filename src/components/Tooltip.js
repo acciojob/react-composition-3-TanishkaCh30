@@ -16,7 +16,7 @@ const Tooltip = ({text,children}) =>{
 
     return (
        <div className='tooltip'
-        onMouseOver={showText}
+        onMouseEnter={showText}
         onMouseLeave={hideText}
         >
         {children}
