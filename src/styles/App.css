@@ -1,1 +1,27 @@
 
+
+.tooltip{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    margin:1.5rem;
+
+    margin-top:3rem;
+    
+    
+    
+}
+
+.tooltiptext{
+    position:absolute;
+    bottom:80%;
+     left:10%; 
+    height:40px;
+    width:100px;
+    border:1px solid red;
+    background-color: red;
+    color:white;
+    border-radius:0.5rem;
+    padding:0.3rem
+}
